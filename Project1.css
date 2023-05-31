@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('Project1_pic2.jpg');
+    background-size: 100% 116%;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header img {
+    display: block;
+    margin: auto;
+}
+
+.lhead {
+    display: inline-block;
+    /* border: 2px solid blue; */
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.lhead img {
+    height: 100px;
+    width: 100px;
+}
+
+.mhead {
+    display: inline-block;
+    /* border: 2px solid rgb(0, 255, 34); */
+    position: absolute;
+    left: 400px;
+    width: 700px;
+    /* text-align: center;
+    margin: 0px auto; */
+}
+
+.mhead li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mhead li a {
+    text-decoration: none;
+    color: white;
+}
+
+.mhead li a:hover {
+    color: rgb(249, 172, 6);
+    text-decoration: underline;
+}
+
+.rhead {
+    display: inline-block;
+    /* border: 2px solid rgb(255, 0, 225); */
+    position: absolute;
+    right: 30px;
+    top: 39px;
+}
+
+.btn {
+    margin: auto 10px;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+}
+
+.formsheet {
+    display: inline-block;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 80px;
+    margin-left: 460px;
+    margin-top: 50px;
+}
+
+.formsheet .container {
+    margin: 20px;
+}
+
+.formsheet .container input {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    /* display: block; */
+    border-radius: 10px;
+    width: 380px;
+    height: 30px;
+}
+
+.sub {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    width: 100px;
+    height: 28px;
+    border-radius: 5px;
+}
+
+.sub:hover{
+    color: white;
+    background-color: black;
+}
+
+/* .formsheet .container:hover{
+    color: white;
+    background-color: black;
+} */
