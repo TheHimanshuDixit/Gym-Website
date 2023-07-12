@@ -3,10 +3,15 @@
 Basic GYM Website here you can apply for registration in zym
 
 
+## Demo Link
+```
+https://thehimanshudixit.github.io/Gym-Website/
+```
+
 ## Tech Stack
-
+```
 **Static Page:** Html, CSS
-
+```
 
 ## Screenshots
 
